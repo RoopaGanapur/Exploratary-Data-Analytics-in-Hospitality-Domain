@@ -1,3 +1,5 @@
+## AtliQ Hotels Data Analysis Project 
+
 ## Project Overview:
 Atliq Grands is dedicated to strengthening its market share and competitive position through the power of data analytics. In collaboration with a specialized third-party provider, the company is poised to unlock valuable, data-driven insights to refine revenue management strategies and guide informed decision-making. This partnership will empower Atliq Grands to reclaim its competitive edge within the luxury and business hotel sectors, positioning the brand for sustained growth and industry leadership.
 
