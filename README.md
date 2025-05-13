@@ -1,57 +1,111 @@
-## AtliQ Hotels Data Analysis Project 
+# 🏨 Hotel Booking Data Analysis – AtliQ Grands
 
-## Project Overview:
-Atliq Grands is dedicated to strengthening its market share and competitive position through the power of data analytics. In collaboration with a specialized third-party provider, the company is poised to unlock valuable, data-driven insights to refine revenue management strategies and guide informed decision-making. This partnership will empower Atliq Grands to reclaim its competitive edge within the luxury and business hotel sectors, positioning the brand for sustained growth and industry leadership.
 
-## Problem Statement:
-AtliQ Grands, a distinguished hospitality chain with over two decades of expertise in luxury and business hotels, is navigating challenges in sustaining its market share amid growing competition. To address this, the company is turning to business and data intelligence to drive strategic decision-making and reclaim its competitive advantage. Recognizing the value of specialized insights, AtliQ Grands is exploring a partnership with a third-party data analytics provider. This collaboration will empower the company to extract valuable insights from historical data, enabling the revenue management team to make data-driven decisions that enhance performance and fuel growth.
 
-## Project Goal:
-To strengthen AtliQ Grands' market position and drive revenue growth in the luxury and business hotel segment, the company is committed to adopting data-driven strategies and leveraging business intelligence. By harnessing the power of data analytics, AtliQ Grands aims to gain a competitive edge, make more informed decisions, and pave the way for sustainable growth and long-term success.
+> 📊 A Python-based data analysis project that uncovers hotel booking trends, helping AtliQ Grands boost occupancy and revenue using real-world data.
 
-## Skills:  
+---
 
-- **Tech Stacks:**
+## 🧩 Problem Statement
+
+AtliQ Grands is facing a **decline in bookings and revenue** but lacks an in-house analytics team. This project analyzes hotel data to uncover **actionable insights** and support better decision-making.
+
+---
+
+## 🎯 Objectives
+
+- Analyze booking trends across cities and room types  
+- Compare weekday vs weekend performance  
+- Suggest improvements to increase revenue and occupancy  
+
+---
+
+## 🛠️ Tools & Libraries Used
+
+| Tool             | Use Case                         |
+|------------------|----------------------------------|
+| `Python`         | For scripting and logic          |
+| `Jupyter Notebook` | Step-by-step analysis workflow  |
+| `Pandas`         | Data cleaning and manipulation   |
+| `Matplotlib & Seaborn` *(if used)* | Visualization of key metrics |
+
+---
+
+## 📂 Datasets Used
+
+All datasets are available in the `/datasets` folder:
+
+- `Bookings` – Reservation details  
+- `Room Types` – Information on different room categories  
+- `Cities` – Hotel locations  
+- `Booking Dates` – Dates of check-in and check-out  
+- `Revenue` – Financial data
+
+📝 *Each dataset was cleaned, merged, and analyzed in Jupyter Notebook.*
+
+---
+
+## 🔍 Data Analysis Steps
+
+1. **Data Cleaning & Transformation**  
+   - Handled duplicates, missing values  
+   - Standardized date formats and merged datasets
   
-    **1.** Python Programming: Advanced skills in Python, with a focus on data analysis, cleaning, transformation, and visualization.
-
-    **2.** Data Visualization: Proficient in using the Matplotlib library to create a wide range of charts and visualizations.
-
-    **3.** Pandas Fundamentals: Skilled in creating dataframes, utilizing group-by functions, concatenating and merging datasets, handling missing values, and reading CSV files.
-
-- **Soft Skills:**
-
-    **1.** Identifying and addressing critical challenges within the hospitality industry.
-
-    **2.** Analyzing complex datasets to derive valuable insights.
-
-    **3.** Effectively communicating findings and recommendations to stakeholders.
-
-    **4.** Collaborating seamlessly with cross-functional teams (e.g., revenue management, IT) to achieve project objectives.
-
-    **5.** Adapting to changing business requirements and industry trends.
-
-    **6.** Building and nurturing relationships with stakeholders at all organizational levels.
-
-    **7.** Presenting insights and recommendations clearly and persuasively.
-
-    **8.** Ensuring precision and accuracy in data analysis and reporting.
-
+   
+3. **Exploration & Visualization**  
+   - Analyzed occupancy by city and room type  
+   - Compared weekday vs weekend performance  
+   - Calculated revenue across cities
+  
   
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+4. **Key Insights Generated**  
+   - Identified best/worst performing rooms and cities  
+   - Highlighted peak times for bookings  
+   - Found opportunities for improvement
   
+   -
+---
+
+
+## 🔄 Data Pipeline
+
+The flow of data from booking platforms to analysis:
+
+
+1. Data comes from sources like MakeMyTrip, Tripster, AtliQGrands.com & offline bookings  
+2. Goes through ETL process  
+3. Stored in a Data Warehouse  
+4. Analyzed in Jupyter using Pandas
+
+---
+
+
+## 📈 Key Insights
+
+| Category   | Insight |
+|------------|---------|
+| 🔹 Occupancy | Presidential Rooms had the highest occupancy (59.28%) <br> Delhi had the best city occupancy (61.51%) <br> Weekends had 72.34% occupancy vs 50.88% on weekdays |
+| 🔹 Revenue   | Mumbai generated the highest revenue – ₹668.57M <br> Delhi generated the lowest – ₹294.40M |
+
+---
+
+## ✅ Recommendations
+
+- Focus more marketing on **Delhi** and **Presidential Rooms**  
+- Launch **weekend travel packages** to capture high demand  
+- Offer **discounts in Bangalore** to boost occupancy  
+- Partner with **online platforms** to expand booking reach  
+
+---
+
+
+---
+
+## 💬 Conclusion
+
+This Python-based analysis provided AtliQ Grands with:
+
+- Clear visibility into hotel performance  
+- Data-backed strategies to improve revenue  
+- Actionable insights to stay competitive  
